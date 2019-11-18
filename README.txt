@@ -1,3 +1,7 @@
+This is the repository for my hosted online portfolio. For now, I am using 
+a responsive html5 template provided by html5up.net. Original README:
+
+
 Massively by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
