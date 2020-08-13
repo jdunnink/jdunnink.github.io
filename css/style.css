@@ -41,7 +41,7 @@ a:active{
 
 .post{
     border:1px #ccc solid;
-    font-size:20px;
+    font-size:23px;
     padding:10px;
     background-color:White;
     color:black;
@@ -153,6 +153,7 @@ a:active{
 #about{
     background-color:#2F4F4F;
     color:white;
+    font-size: 20px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     float:left;
@@ -166,6 +167,7 @@ a:active{
 #contact{
     margin-top: 10px;
     background-color:white;
+    font-size: 20px;
     border: 1px #303030 solid;
     color:black;
     float:right;
@@ -212,6 +214,9 @@ a:active{
 
 @media(max-width:500px){
     .lang-note{
+        display:none;
+    }
+    .author-note{
         display:none;
     }
     .code{
