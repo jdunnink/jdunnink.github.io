@@ -1,22 +1,14 @@
 body {
-    background-color:#555;
+    background-color:#F8F8FF;
     color: #303030;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     line-height:1.6em;
     margin:0;
 }
 
 .container{
-    width: 75%;
-    max-width: 1100px;
-    margin:auto;
-    overflow:hidden;
-}
-
-.alt-container{
-    width: 90%;
-    max-width: 1300px;
+    width: 80%;
     margin:auto;
     overflow:hidden;
 }
@@ -24,11 +16,6 @@ body {
 a{
     text-decoration:none;
     color:#000;
-}
-
-#about a{
-    color:white;
-    font-weight:bold;
 }
 
 a:hover{
@@ -105,8 +92,6 @@ a:active{
 }
 
 #timeline{
-    border: 1px black solid;
-    background-color:#F8F8FF;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color:#555;
@@ -122,28 +107,27 @@ a:active{
 }
 
 #navbar{
-    padding-left:30px;
-    background-color:#303030
+    background-color:#303030;
+    overflow:hidden;
+    padding-left:10%;
+    z-index: 1;
 }
 
-#navbar ul{
-    padding:0;
-    list-style: none;
-}
-
-#navbar li{
-    display:inline;
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%; 
 }
 
 #navbar a{
     color:White;
     font-weight:bold;
     text-decoration:none;
+    display:block;
     font-size:18px;
-    padding-right:7px;
-    padding-left:7px;
-    padding-top:14px;
-    padding-bottom:16px;
+    padding: 14px;
+    float:left;
+    text-align:center;
 }
 
 #navbar a:hover{
@@ -151,32 +135,30 @@ a:active{
 }
 
 #about{
-    background-color:#2F4F4F;
-    color:white;
+    color:#303030;
     font-size: 20px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    float:left;
-    padding:20px;
+    float:right;
+    margin-top:250px;
+    margin-bottom:100px;
     width:70%;
-    margin-top:10px;
     box-sizing:border-box;
+}
 
+#block{
+    background-image: url("../img/descending_midmight_blue.png");
+    width:100%;
+    height:784px;
+    margin-top:100px;
+    margin-bottom:100px;
+    position:relative;
 }
 
 #contact{
-    margin-top: 10px;
-    background-color:white;
+    color:#F8F8FF;
     font-size: 20px;
-    border: 1px #303030 solid;
-    color:black;
-    float:right;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding:20px;
-    width:30%;
-    box-sizing:border-box;
-    min-width: 300px;
+    position:absolute;
+    top:250px;
+    left:10%;
 }
 
 .lang-note{
@@ -184,31 +166,11 @@ a:active{
     padding-left: 20px;
 }
 
-#cv-header{
-    font-size: 50px;
-    text-align:center;
-    color:#303030;
-}
+
 
 @media(max-width:1250px){
-    #contact{
-        width:100%;
-        float:none;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-    }
     #about{
         width:100%;
-        float:none;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-    .container{
-        width:100%;
-    }
-
-    #timeline{
-        border-radius:0px;
     }
 }
 
@@ -221,8 +183,5 @@ a:active{
     }
     .code{
         margin-right:33%;
-    }
-    #cv-header{
-        font-size:30px;
     }
 }
