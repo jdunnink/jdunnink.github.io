@@ -1,191 +1,125 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Portfolio jesse dunnink</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+    
+    <head>
+        <title>Jesse Dunnink Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <body>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Jesse Dunnink</h1>
-						<p>Welcome to my portfolio page! I am an aspiring programmer, currently studying at Codam Coding College, Amsterdam.
-							 I am mainly interested in creating high performance web applications and backend development. I am most proficient in C, PHP and SQL and I am able to work with Git, Docker, PHPmyadmin and MySQL.
-							  Have a look at my projects below, I can be contacted via LinkedIN or via email at dunninkjesse1@gmail.com. </p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        <nav id="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='html/cv.html'>CV</a></li>
+                    <li><a href='https://github.com/jdunnink' target="_blank">Github</a></li>
+                    <li><a href='https://www.linkedin.com/in/jesse-dunnink/' target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </nav>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Jesse Dunnink</a>
-					</header>
+        <div class="alt-container">
+            <section id="about">
+                <h1>About Me</h1>
+                <p>Hello! My name is Jesse. I am currently studying to be a software engineer at <a href="https://www.codam.nl/en/" target="_blank">Codam Coding College</a>, Amsterdam. Born and raised in Zwolle, I moved to Groningen to study International Business. Eventually I decided to try out for the selection piscine at Codam, where I discovered my passion for software development. I have been studying at Codam since March, 2020. I’m currently looking for an internship, so feel free to contact me.</p>    
+            </section>
+            <aside id="contact">
+                <h1>Contact</h1>
+                <ul>
+                    <li>Email       : dunninkjesse1@gmail.com</li>
+                    <li>Github      : github.com/jdunnink</li>
+                    <li>LinkedIn    : linkedin.com/in/jesse-dunnink/</li>
+                    <li>Twitter     :   jdunnink</li>
+                </ul>
+            </aside>
+            <div class="clr"></div>
+        </div>
 
-				<!-- Nav
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">This is Massively</a></li>
-							<li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        <div class="container">
+            <section id="timeline">
+                <h1 id="timeline-header">Projects</h1>
+                <article class="post">
+                    <h1 class="post-title">Corewar</h1>
+                    <small class="author-note">completed on 13-06-2020</small>
+                    <div class="clr"></div>
+                    <p>Corewar is the final group project at Codam, before students are leaving on internships. The topic deals mainly with assembly, parsing and low level process management. For this project, we had to create an assembler (translating assembly to bytecode) and a virtual machine, to facilitate the execution of the Corewar game. Corewar is a well-known game at 42, you can read about the Corewar game <a href="https://en.wikipedia.org/wiki/Core_War" target="_blank">here</a>.</p>
+                    <small class="lang-note">Language: C</small>
+                    <a href="html/corewar.html" class="read button">Read More</a>
+                    <a href="https://github.com/jdunnink/corewar" class="code button">View Code</a>
+                    <div class="clr"></div>
+                </article>
+                <hr class="default-hr">
+                <article class="post">
+                    <h1 class="post-title">Lemin</h1>
+                    <small class="author-note">completed on 25-02-2020</small>
+                    <div class="clr"></div>
+                    <p>Lemin is an advanced algorithmic project at Codam dealing with graph theory and networks.
+                        The objective of this project was to write an algorithm that is able to find a combination of paths within a network, that would produce maximum network flow for a given number of actors.
+                        How can we get the most amount of ants through a maze with the least amount of moves?</p>
+                    <small class="lang-note">Language: C</small>
+                    <a href="html/lemin.html" class="read button">Read More</a>
+                    <a href="https://github.com/jdunnink/Lem-in" class="code button">View Code</a>
+                    <div class="clr"></div>
+                </article>
+                <hr class="default-hr">
+                <article class="post">
+                    <h1 class="post-title">push_swap</h1>
+                    <small class="author-note">completed on 31-10-2019</small>
+                    <div class="clr"></div>
+                    <p>Push_swap is an algorithmic project at codam where students have to deal with sorting algorithms and complexity theory. In this project, students are required to write an algorithm that can find a combination of actions that would sort a list of numbers the fastest.</p>
+                    <small class="lang-note">Language: C</small>
+                    <a href="html/push_swap.html" class="read button">Read More</a>
+                    <a href="https://github.com/jdunnink/push_swap" class="code button">View Code</a>
+                    <div class="clr"></div>
+                </article>
+                <hr class="default-hr">
+                <article class="post">
+                    <h1 class="post-title">ft_printf</h1>
+                    <small class="author-note">completed on 14-06-2019</small>
+                    <div class="clr"></div>
+                    <p>For this project, I implemented my own version of clib printf, excluding the buffer management.</p>
+                    <small class="lang-note">Language: C</small>
+                    <a href="html/ft_printf.html" class="read button">Read More</a>
+                    <a href="https://github.com/jdunnink/ft_printf" class="code button">View Code</a>
+                    <div class="clr"></div>
+                </article>
+                <hr class="default-hr">
+                <article class="post">
+                    <h1 class="post-title">fillit</h1>
+                    <small class="author-note">completed on 08-05-2020</small>
+                    <div class="clr"></div>
+                    <p>Fillit is a project at Codam, where students have to write an algorithm that can find the smallest square possible, given a set of random shapes.</p>
+                    <small class="lang-note">Language: C</small>
+                    <a href="html/fillit.html" class="read button">Read More</a>
+                    <a href="https://github.com/jdunnink/fillit" class="code button">View Code</a>
+                    <div class="clr"></div>
+                </article>
+                <hr class="default-hr">
+                <article class="post">
+                    <h1 class="post-title">get_next_line</h1>
+                    <small class="author-note">completed on 16-04-2019</small>
+                    <div class="clr"></div>
+                    <p>For this project, I created a function in C that can read a file line by line. This was done without using only basic system calls and no external functions or libraries.</p>
+                    <small class="lang-note">Language: C</small>
+                    <a href="html/get_next_line.html" class="read button">Read More</a>
+                    <a href="https://github.com/jdunnink/get_next_line" class="code button">View Code</a>
+                    <div class="clr"></div>
+                </article>
+                <hr class="default-hr">
+                <article class="post">
+                    <h1 class="post-title">Libft</h1>
+                    <small class="author-note">completed on 01-04-2020</small>
+                    <div class="clr"></div>
+                    <p>Static function library in C. Extensively used in other projects that use the C language.</p>
+                    <small class="lang-note">Language: C</small>
+                    <a href="html/libft.html" class="read button">Read More</a>
+                    <a href="https://github.com/jdunnink/libft" class="code button">View Code</a>
+                    <div class="clr"></div>
+                </article>
+            </section>
+        </div>
+    </body>
 
-				-->
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">Codam Coding College</span>
-									<h2><a href="https://www.codam.nl/">About Codam</a></h2>
-									<p>
-
-										Codam Coding College is a programming school in the heart of Amsterdam, and part of the global 42Network of schools.
-										 The curriculum is project based and focuses on peer to peer learning. There are no books, teachers or classes; projects are evaluated and tested by other students.
-										 Initiating projects are written in C to foster a strong understanding of core programming concepts
-										  (memory management, algorithms, data structures, types). Advanced projects allow students to specialize within different fields;
-										   Students can choose projects about, for example, graphics rendering, advanced algorithms, system administration, web development or low level programming.</p>
-								</header>
-								<a href="https://www.codam.nl/" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://www.codam.nl/" class="button large">About Codam</a></li>
-								</ul>
-							</article>
-
-							<article class="post featured">
-									<header class="major">
-										<h2>My projects</h2>
-									</header>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://github.com/jdunnink/libft">Libft</a></h2>
-										<span class="date">Implementations of C standard library functions.</span>
-									</header>
-									<a href="https://github.com/jdunnink/libft" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>A collection of C standard library function implementations, written to increase my understanding of programming in C. Frequently used in other projects.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/jdunnink/libft" class="button">View code</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/jdunnink/fillit">Fillit</a></h2>
-										<span class="date">Smallest square tetromino problem using a recursive algorithm.</span>
-									</header>
-									<a href="https://github.com/jdunnink/fillit" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>A recursive algorithms that, given a list of tetrominos, finds a solution that combines them into their smallest square.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/jdunnink/fillit" class="button">View code</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/jdunnink/push_swap">Push_swap</a></h2>
-										<span class="date">Sorting algorithm with operation constraints.</span>
-									</header>
-									<a href="https://github.com/jdunnink/push_swap" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Given an unsorted list of integers, this program tries to sort that list with the lowest amount of stack operations.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/jdunnink/push_swap" class="button">View code</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/jdunnink/ft_printf">Ft_printf</a></h2>
-										<span class="date">Implementation of C-library printf.</span>
-									</header>
-									<a href="https://github.com/jdunnink/ft_printf" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>My own implementation of the Standard C Library printf function.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/jdunnink/ft_printf" class="button">View code</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/jdunnink/fdf">FDF</a></h2>
-										<span class="date">3D line raster rendering engine from scratch.</span>
-									</header>
-									<a href="https://github.com/jdunnink/fdf" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>A 3D line rastering engine, written in C. Can be used to represent landscapes and 3D objects with a given 3D coordinate map.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/jdunnink/fdf" class="button">View code</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/jdunnink/get_next_line">Get-next-line</a></h2>
-										<span class="date">Create a C function that is able to read a file, line by line.</span>
-									</header>
-									<a href="https://github.com/jdunnink/get_next_line" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>While only using read/write system calls, this function is able to read large files. Files are read line by line, with robust buffer management, error handling and persistent positition tracking.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/jdunnink/get_next_line" class="button">View code</a></li>
-									</ul>
-								</article>
-							</section>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Joan Muyskensweg 17B-48, 1096CJ</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">+(316) 1498 0502</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">dunninkjesse1@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://twitter.com/dunnink_jesse" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.linkedin.com/in/jesse-dunnink/" class="icon brands alt fa-linkedin-in"><span class="label">Facebook</span></a></li>
-									<li><a href="https://github.com/jdunnink" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Jesse Dunnink</li><li></a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-		<!-- 	<script src="assets/js/util.js"></script> -->
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
+    </html>
