@@ -2,7 +2,7 @@ body {
     background-color:#F8F8FF;
     color: #303030;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     line-height:1.6em;
     margin:0;
 }
@@ -50,8 +50,8 @@ a:active{
     font-weight:bold;
     text-decoration:none;
     display:block;
-    font-size:18px;
     padding: 14px;
+    font-size:23px;
     float:left;
     text-align:center;
 }
@@ -73,7 +73,6 @@ a:active{
 
 #about{
     color:#303030;
-    font-size: 20px;
     float:right;
     margin-top:250px;
     margin-bottom:100px;
@@ -103,7 +102,6 @@ a:active{
 
 #contact{
     color:#F8F8FF;
-    font-size: 20px;
     float:left;
     margin-top:250px;
     margin-bottom:100px;
@@ -126,7 +124,6 @@ a:active{
 
 .post{
     border:1px #ccc solid;
-    font-size:23px;
     padding:10px;
     background-color:White;
     color:black;
@@ -175,15 +172,11 @@ a:active{
     margin-right: 5%;
 }
 
-
-
 #timeline-header{
-    font-size: 50px;
     text-align:center;
+    font-size:55px;
     color:#303030;
 }
-
-
 
 #timeline{
     border-top-left-radius: 10px;
@@ -200,27 +193,16 @@ a:active{
     margin-bottom:30px;
 }
 
-
-
 .sticky{
     position: fixed;
     top: 0;
     width: 100%; 
 }
 
-
-
-
-
-
-
 .lang-note{
     font-size:15px;
     padding-left: 20px;
 }
-
-
-
 
 @media(max-width:1250px){
     #about{
